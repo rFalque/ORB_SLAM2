@@ -25,6 +25,7 @@
 #include<string>
 #include<thread>
 #include<opencv2/core/core.hpp>
+#include <unistd.h>    // see: https://github.com/raulmur/ORB_SLAM2/issues/337
 
 #include "Tracking.h"
 #include "FrameDrawer.h"
